@@ -49,12 +49,13 @@ Once [Docker Community Edition (CE)](https://runnable.com/docker/getting-started
     git checkout -b my-branch
     ```
 
+Now on to Docker!
 
 ## Getting Started with Docker
 
 Following along with the official Getting Started, let's make sure Docker is installed correctly.
 
-    ```
+    ```bash
     docker run hello-world
     ```
 
@@ -68,7 +69,7 @@ If you have not setup a Docker account or logged in, you may be prompted to [cre
 
 Next, as hello-world suggests, we'll run an Ubuntu container.
 
-    ```
+    ```bash
     docker run --it ubuntu
     ```
 
