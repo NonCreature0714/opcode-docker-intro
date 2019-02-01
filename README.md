@@ -57,9 +57,9 @@ Following along with the official Getting Started, let's make sure Docker is ins
 
 In your terminal, run:
 
-        ``bash
-        docker run hello-world
-        ```
+    ```bash
+    docker run hello-world
+    ```
 
 This will:
 
