@@ -6,7 +6,7 @@ This is an introduction to [Docker](https://www.docker.com/) for a range of skil
 
 ***Some of this intro may seem tedious, but there is a reason for the "extra" steps.*** And that is to get new or interested developers up-and-running on common industry skills, like working in a terminal, and Git and branching.
 
-## Why teach Docker to newbies? 
+## Why teach Docker to newbies
 
 In short, Docker makes learning how to code happen more quickly.
 
@@ -20,7 +20,7 @@ Once [Docker Community Edition (CE)](https://runnable.com/docker/getting-started
 
  1. Sign up for Github
  2. Make a `~/development` directory
-    
+
     ```bash
     mkdir ~/development
     ```
@@ -32,7 +32,7 @@ Once [Docker Community Edition (CE)](https://runnable.com/docker/getting-started
     ```
 
  4. Clone this repo ([follow these instructions to install Git](https://git-scm.com/downloads))
-    
+
     ```bash
     git clone https://github.com/NonCreature0714/opcode-docker-intro.git
     ```
@@ -42,7 +42,7 @@ Once [Docker Community Edition (CE)](https://runnable.com/docker/getting-started
     ```bash
     cd opcode-docker-intro/
     ```
- 
+
  6. Checkout your own branch
 
     ```bash
@@ -56,10 +56,10 @@ Now on to Docker!
 Following along with the official Getting Started, let's make sure Docker is installed correctly.
 
 In your terminal, run:
-<!-- 
-        ```bash
-        docker run hello-world
-        ``` -->
+
+    ```bash
+    docker run hello-world
+    ```
 
 This will:
 
@@ -70,17 +70,17 @@ This will:
 If you have not setup a Docker account or logged in, you may be prompted to [create a Docker account](https://hub.docker.com/signup/).
 
 Next, as hello-world suggests, we'll run an Ubuntu container.
-<!-- 
-        ```bash
-        docker run --it ubuntu
-        ``` -->
+
+    ```bash
+    docker run --it ubuntu
+    ```
 
 This will download and run an Ubuntu container on your machine! Incredible!
 
-Now, if you will navigate to the `start_here` directory in this tutorial, you will see a `Dockerfile`. If you open it, you will see something like this.
+Now, if you will navigate to the "start_here" directory in this tutorial, you will see a Dockerfile. If you open it, you will see something like this.
 
-        ```Dockerfile
-        FROM ubuntu:18.04
-        RUN apt-get update && apt-get install vim
-        ENTRYPOINT ["/bin/bash"]
-        ```
+    ```Dockerfile
+    FROM ubuntu:18.04
+    RUN apt-get update && apt-get install vim
+    ENTRYPOINT ["/bin/bash"]
+    ```
