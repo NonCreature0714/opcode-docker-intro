@@ -16,7 +16,7 @@ Docker will also allow an experienced web developer to run live web pages on a l
 
 ## Setup the environment
 
-Once [Docker Community Edition (CE)](https://runnable.com/docker/getting-started/) (Hyperlink to runnable.com, which includes extra easy-to-read materials, and quickly links to official Docker installer for your OS.) is installed, open a terminal (or PowerShell) and follow these steps:
+Once [Docker Community Edition (CE)](https://runnable.com/docker/getting-started/) (*Hyperlink to runnable.com, which includes extra easy-to-read materials, and quickly links to official Docker installer for your OS.*) is installed, open a terminal (or PowerShell) and follow these steps:
 
  1. Sign up for Github
  2. Make a `~/development` directory
