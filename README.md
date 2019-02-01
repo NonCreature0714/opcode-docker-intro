@@ -51,7 +51,6 @@ Once [Docker Community Edition (CE)](https://runnable.com/docker/getting-started
 
 ## Getting Started with Docker
 
-
 Following along with the official Getting Started, let's make sure Docker is installed correctly.
 
     ```bash
@@ -81,4 +80,3 @@ Now, if you will navigate to the `start_here` directory in this tutorial, you wi
     RUN apt-get update && apt-get install vim
     ENTRYPOINT ["/bin/bash"]
     ```
-
