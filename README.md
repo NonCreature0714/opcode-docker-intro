@@ -70,6 +70,7 @@ This will:
 If you have not setup a Docker account or logged in, you may be prompted to [create a Docker account](https://hub.docker.com/signup/).
 
 Next, as hello-world suggests, we'll run an Ubuntu container.
+ 1.
 
     ```bash
     docker run --it ubuntu
