@@ -57,9 +57,9 @@ Following along with the official Getting Started, let's make sure Docker is ins
 
 In your terminal, run:
 
-    ```bash
-    docker run hello-world
-    ```
+        ```bash
+        docker run hello-world
+        ```
 
 This will:
 
@@ -67,7 +67,7 @@ This will:
  2. Pull the hello-world image
  3. Run hello-world in your terminal
 
-If you have not setup a Docker account or logged in, you may be prompted to [create a Docker account](https://hub.docker.com/signup/). 
+If you have not setup a Docker account or logged in, you may be prompted to [create a Docker account](https://hub.docker.com/signup/).
 
 Next, as hello-world suggests, we'll run an Ubuntu container.
 
