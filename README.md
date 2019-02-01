@@ -57,11 +57,9 @@ Following along with the official Getting Started, let's make sure Docker is ins
 
 In your terminal, run:
 
-
     ```bash
     docker run hello-world
     ```
-    
 
 This will:
 
@@ -73,12 +71,10 @@ If you have not setup a Docker account or logged in, you may be prompted to [cre
 
 Next, as hello-world suggests, we'll run an Ubuntu container.
 
-
     ```bash
     docker run --it ubuntu
     ```
-
-
+    
 This will download and run an Ubuntu container on your machine! Incredible!
 
 Now, if you will navigate to the "start_here" directory in this tutorial, you will see a Dockerfile. If you open it, you will see something like this.
