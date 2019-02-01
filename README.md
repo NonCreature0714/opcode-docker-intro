@@ -51,3 +51,33 @@ Once [Docker Community Edition (CE)](https://runnable.com/docker/getting-started
 
 ## Getting Started with Docker
 
+Following along with the official Getting Started, let's make sure Docker is installed correctly.
+
+    ```bash
+    docker run hello-world
+    ```
+
+This will:
+
+ 1. Connect to Docker Hub
+ 2. Pull the hello-world image
+ 3. Run hello-world in your terminal
+
+If you have not setup a Docker account or logged in, you may be prompted to [create a Docker account](https://hub.docker.com/signup/). 
+
+Next, as hello-world suggests, well run an Ubuntu container with: 
+
+    ```bash
+    docker run --it ubuntu
+    ```
+
+This will download and run an Ubuntu container on your machine! Incredible!
+
+Now, if you will navigate to the `start_here` directory in this tutorial, you will see a `Dockerfile`. If you open it, you will see something like this:
+
+    ```Dockerfile
+    FROM ubuntu:18.04
+    RUN apt-get update && apt-get install vim
+    ENTRYPOINT ["/bin/bash"]
+    ```
+
