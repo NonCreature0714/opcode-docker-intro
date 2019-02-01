@@ -56,10 +56,10 @@ Now on to Docker!
 Following along with the official Getting Started, let's make sure Docker is installed correctly.
 
 In your terminal, run:
-
+<!-- 
         ```bash
         docker run hello-world
-        ```
+        ``` -->
 
 This will:
 
@@ -70,10 +70,10 @@ This will:
 If you have not setup a Docker account or logged in, you may be prompted to [create a Docker account](https://hub.docker.com/signup/).
 
 Next, as hello-world suggests, we'll run an Ubuntu container.
-
+<!-- 
         ```bash
         docker run --it ubuntu
-        ```
+        ``` -->
 
 This will download and run an Ubuntu container on your machine! Incredible!
 
