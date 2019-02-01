@@ -55,8 +55,9 @@ Now on to Docker!
 
 Following along with the official Getting Started, let's make sure Docker is installed correctly.
 
-    ```bash
+In your terminal, run:
 
+    ```bash
     docker run hello-world
     ```
 
