@@ -49,6 +49,7 @@ Once [Docker Community Edition (CE)](https://runnable.com/docker/getting-started
     git checkout -b my-branch
     ```
 
+
 ## Getting Started with Docker
 
 Following along with the official Getting Started, let's make sure Docker is installed correctly.
