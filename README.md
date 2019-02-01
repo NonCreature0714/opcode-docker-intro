@@ -16,8 +16,19 @@ Docker will also allow an experienced web developer to run live web pages on a l
 
  1. Sign up for Github
  2. Make a `~/development` directory
-  - `mkdir ~/development`
+    
+    ```bash
+    mkdir ~/development
+    ```
+
  3. Navigate to your development directory
-  - `cd ~/development`
+
+    ```bash
+    cd ~/development
+    ```
+
  4. Clone this repo ([follow these instructions to install Git](https://git-scm.com/downloads))
-  - `git clone https://github.com/NonCreature0714/opcode-docker-intro.git`
+    
+    ```bash
+    git clone https://github.com/NonCreature0714/opcode-docker-intro.git
+    ```
