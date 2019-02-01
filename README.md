@@ -51,8 +51,8 @@ Once [Docker Community Edition (CE)](https://runnable.com/docker/getting-started
 
 ## Getting Started with Docker
 
-Following along with the official Getting Started, let's make sure Docker is installed correctly.
 
+Following along with the official Getting Started, let's make sure Docker is installed correctly.
 
     ```bash
     docker run hello-world
@@ -65,7 +65,6 @@ This will:
  3. Run hello-world in your terminal
 
 If you have not setup a Docker account or logged in, you may be prompted to [create a Docker account](https://hub.docker.com/signup/). 
-
 
 Next, as hello-world suggests, we'll run an Ubuntu container.
 
